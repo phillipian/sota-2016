@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900);
 
 * {
@@ -327,42 +327,7 @@ body {
 }
 
 @media all and (max-width: 1300px) {
-    .wrapper .content section .container {
-      width: 75%;
-    }
-}
-
-/*@media only screen and (max-width: 600px), only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
-  .wrapper header .content:before {
-    height: 20vh;
-  }
-
-  .wrapper header .content {
-    height: 70vh;
-  }
-
-  .wrapper header .content .text {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .wrapper header .content .text h3 {
-    font-size: 15pt;
-    letter-spacing: 2px;
-  }
-
-  .wrapper header .content .text h1 {
-    font-size: 25pt;
-    letter-spacing: 0px;
-    margin-bottom: 10px;
-  }
-
-  .wrapper header .content .text p {
-    font-family: 'Lato', sans-serif;
+  .wrapper .content section .container {
+    width: 75%;
   }
 }
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
-  body {
-    background-color: green;
-  }
-}*/
