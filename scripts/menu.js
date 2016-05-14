@@ -3,6 +3,9 @@
  */
 
 $(document).ready(function() {
+  /**
+   * Stick the navigation panel after scrolling past intro.
+   */
   $("#general").waypoint(function(direction) {
     if (direction === "down") {
       $("nav").addClass("stuck");
@@ -11,6 +14,9 @@ $(document).ready(function() {
     }
   });
 
+  /**
+   * Change the navigation item when the user scrolls down. (Positive offset)
+   */
   $("section").waypoint(function(direction) {
     if (direction === 'down') {
       $("nav li a").removeClass();
@@ -20,6 +26,9 @@ $(document).ready(function() {
     offset: 200
   });
 
+  /**
+   * Change the navigation item when the user scrolls up. (Negative offset)
+   */
   $("section").waypoint(function(direction) {
     if (direction === 'up') {
       $("nav li a").removeClass();
@@ -29,7 +38,9 @@ $(document).ready(function() {
     offset: -200
   });
 
-  // Scroll to a section when the link is clicked.
+  /**
+   * Scroll to a section when a navigation item is clicked.
+   */
   $("nav li a").click(function(e) {
     e.preventDefault();
     var href = $(e.target).attr("href");
@@ -37,5 +48,4 @@ $(document).ready(function() {
       scrollTop: $(href).offset().top
     }, 1000);
   });
-
 });
