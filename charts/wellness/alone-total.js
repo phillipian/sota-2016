@@ -7,7 +7,6 @@
 
 $(function() {
   $("[id='alone-total']").highcharts({
-    colors: ['#BBB', '#999', '#777', '#555', '#333'],
     chart: {
       type: 'bar'
     },

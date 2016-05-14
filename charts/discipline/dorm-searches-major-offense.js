@@ -7,7 +7,6 @@
 
 $(function() {
   $("[id='dorm-searches-major-offense']").highcharts({
-    colors: ['#999', '#777', '#555', '#333'],
     chart: {
       type: 'column'
     },

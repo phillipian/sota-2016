@@ -18,7 +18,7 @@ $(function() {
     },
     plotOptions: {
       series: {
-        colorByPoint: true,
+        colorByPoint: true
       }
     },
     series: [{

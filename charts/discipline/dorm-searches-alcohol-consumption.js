@@ -7,7 +7,6 @@
 
 $(function() {
   $("[id='dorm-searches-alcohol-consumption']").highcharts({
-    colors: ['#DDD', '#BBB', '#999', '#777', '#555', '#333'],
     chart: {
       type: 'column'
     },

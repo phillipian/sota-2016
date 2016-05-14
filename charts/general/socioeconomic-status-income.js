@@ -7,7 +7,6 @@
 
 $(function() {
   $("[id='income-status']").highcharts({
-    colors: ['#BBB', '#999', '#777', '#555', '#333'],
     chart: {
       type: 'bar'
     },

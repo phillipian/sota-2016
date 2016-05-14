@@ -7,7 +7,6 @@
 
 $(function() {
   $("[id='coursework-hours-grade']").highcharts({
-    colors: ['#FFF', '#DDD', '#BBB', '#999', '#777', '#555', '#333'],
     chart: {
       type: 'area'
     },

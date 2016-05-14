@@ -7,7 +7,6 @@
 
 $(function() {
   $("[id='happy-grade']").highcharts({
-    colors: ['#555', '#777'],
     chart: {
       type: 'bar'
     },

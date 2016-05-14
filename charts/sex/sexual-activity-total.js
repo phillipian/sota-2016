@@ -7,7 +7,6 @@
 
 $(function() {
   $("[id='sexual-activity-total']").highcharts({
-    colors: ['#999', '#777', '#555', '#333'],
     chart: {
       type: 'bar'
     },

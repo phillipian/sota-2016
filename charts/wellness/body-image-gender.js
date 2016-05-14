@@ -7,7 +7,6 @@
 
 $(function() {
   $("[id='body-image-gender']").highcharts({
-    colors: ['#DDD', '#BBB', '#999', '#777', '#555', '#333'],
     chart: {
       type: 'bar'
     },
