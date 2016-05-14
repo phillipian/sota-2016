@@ -19,7 +19,7 @@ $(function() {
       categories: ['Boarders', 'Day Students'],
     },
     tooltip: {
-      formatter: xRefBarTooltipFormatter
+      formatter: columnToolTipFormatter
     },
     series: [{
       name: 'Have engaged in sexual activity',

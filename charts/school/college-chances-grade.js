@@ -12,19 +12,14 @@ $(function() {
     },
     plotOptions: {
       series: {
-        stacking: 'percentage',
-        dataLabels: {
-          formatter: function() {
-            return Math.round(this.percentage * 10) / 10 + '%';
-          }
-        }
+        stacking: 'percentage'
       }
     },
     xAxis: {
       categories: ['2016', '2017', '2018', '2019'],
     },
     tooltip: {
-      formatter: xRefBarTooltipFormatter
+      formatter: percentageToolTipFormatter
     },
     series: [{
       name: 'Negatively',

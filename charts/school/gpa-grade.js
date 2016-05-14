@@ -29,7 +29,7 @@ $(function() {
       reversed: true
     },
     tooltip: {
-      formatter: xRefBarTooltipFormatter
+      formatter: percentageToolTipFormatter
     },
     series: [{
       name: '2016',

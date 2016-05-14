@@ -20,10 +20,10 @@ $(function() {
       }
     },
     xAxis: {
-      categories: ['2016', '2017', '2018', '2019'], //, 'Not applicable'
+      categories: ['2016', '2017', '2018', '2019']
     },
     tooltip: {
-      formatter: xRefBarTooltipFormatter
+      formatter: percentageToolTipFormatter
     },
     series: [{
       name: 'Yes, have gotten away with major offense/I.P. without being caught',

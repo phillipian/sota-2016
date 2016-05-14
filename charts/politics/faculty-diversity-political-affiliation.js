@@ -14,7 +14,7 @@ $(function() {
       categories: ['The faculty is diverse enough', 'The faculty is not diverse enough'],
     },
     tooltip: {
-      formatter: barTooltipFormatter
+      formatter: columnToolTipFormatter
     },
     series: [{
       name: 'Conservative',

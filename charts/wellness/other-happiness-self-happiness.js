@@ -13,6 +13,9 @@ $(function() {
     xAxis: {
       categories: ['Thinks others are generally happy at Andover', 'Doesn\'t think others are generally happy at Andover'],
     },
+    tooltip: {
+      formatter: columnToolTipFormatter
+    },
     series: [{
       name: 'Generally happy at Andover',
       data: [507, 226]

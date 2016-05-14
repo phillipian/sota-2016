@@ -17,6 +17,12 @@ $(function() {
         rotation: -90,
       }
     },
+    legend: {
+      reversed: true
+    },
+    tooltip: {
+      formatter: columnToolTipFormatter
+    },
     series: [{
       name: '2016',
       data: [71, 156]

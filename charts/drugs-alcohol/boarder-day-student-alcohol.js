@@ -19,7 +19,7 @@ $(function() {
       categories: ['Boarder', 'Day Student'],
     },
     tooltip: {
-      formatter: xRefBarTooltipFormatter
+      formatter: columnToolTipFormatter
     },
     series: [{
       name: 'Have consumed alcohol',

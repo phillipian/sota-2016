@@ -26,6 +26,9 @@ $(function() {
     yAxis: {
       reversedStacks: true
     },
+    tooltip: {
+      formatter: percentageToolTipFormatter
+    },
     legend: {
       reversed: true
     },

@@ -22,7 +22,7 @@ $(function() {
       categories: ['2016', '2017', '2018', '2019']
     },
     tooltip: {
-      formatter: xRefBarTooltipFormatter
+      formatter: percentageToolTipFormatter
     },
     series: [{
       name: 'On and off campus',

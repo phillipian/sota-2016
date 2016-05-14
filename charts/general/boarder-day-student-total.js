@@ -14,7 +14,7 @@ $(function() {
       categories: ['Boarder', 'Day Student'],
     },
     tooltip: {
-      formatter: barTooltipFormatter
+      formatter: columnToolTipFormatter
     },
     plotOptions: {
       series: {

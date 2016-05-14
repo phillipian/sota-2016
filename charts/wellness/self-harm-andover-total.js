@@ -19,7 +19,7 @@ $(function() {
       categories: ['Has engaged in self-harm at Andover', 'Has not engaged in self-harm at Andover'],
     },
     tooltip: {
-      formatter: barTooltipFormatter
+      formatter: columnToolTipFormatter
     },
     series: [{
       data: [

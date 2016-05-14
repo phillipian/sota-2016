@@ -13,14 +13,14 @@ $(function() {
     },
     plotOptions: {
       series: {
-        stacking: 'percent',
-        dataLabels: {
-          enabled: false
-        }
+        stacking: 'percent'
       }
     },
     xAxis: {
       categories: ['Agender', 'Gender fluid', 'Genderqueer', 'Man', 'Nonbinary', 'Woman']
+    },
+    tooltip: {
+      formatter: percentageToolTipFormatter
     },
     series: [{
       name: 'Yes, always',

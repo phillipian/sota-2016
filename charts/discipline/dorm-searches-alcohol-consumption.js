@@ -14,6 +14,9 @@ $(function() {
     xAxis: {
       categories: ['Think the administration should<br /> be able to search dorms', 'Think the administration shouldn\'t<br /> be able to search dorms'],
     },
+    tooltip: {
+      formatter: columnToolTipFormatter
+    },
     series: [{
       name: 'Consumed alcohol on and off campus',
       data: [46, 165]

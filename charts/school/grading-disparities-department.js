@@ -12,7 +12,7 @@ $(function() {
     },
     plotOptions: {
       series: {
-        colorByPoint: true,
+        colorByPoint: true
       }
     },
     xAxis: {

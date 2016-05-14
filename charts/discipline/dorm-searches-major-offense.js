@@ -14,6 +14,9 @@ $(function() {
     xAxis: {
       categories: ['Should be able to search dorms', 'Shouldn\'t be able to search dorms'],
     },
+    tooltip: {
+      formatter: columnToolTipFormatter
+    },
     series: [{
       name: 'Has committed major offense',
       data: [167, 287]

@@ -14,7 +14,7 @@ $(function() {
       categories: ['Reverse racism exists', 'Reverse racism doesn\'t exist'],
     },
     tooltip: {
-      formatter: barTooltipFormatter
+      formatter: columnToolTipFormatter
     },
     series: [{
       name: 'Sec. Hillary Clinton',

@@ -24,7 +24,7 @@ $(function() {
       }
     },
     tooltip: {
-      formatter: xRefBarTooltipFormatter
+      formatter: columnToolTipFormatter
     },
     series: [{
       name: 'Varsity athletes',

@@ -23,7 +23,7 @@ $(function() {
       categories: ['2019', '2018', '2017', '2016'],
     },
     tooltip: {
-      formatter: xRefBarTooltipFormatter
+      formatter: percentageToolTipFormatter
     },
     series: [{
       name: 'Conservative',

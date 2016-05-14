@@ -14,7 +14,7 @@ $(function() {
       categories: ['Should search dorms', 'Shouldn\'t search dorms'],
     },
     tooltip: {
-      formatter: xRefBarTooltipFormatter
+      formatter: columnToolTipFormatter
     },
     series: [{
       name: 'Consumed alcohol on and off campus',

@@ -1,5 +1,5 @@
 Highcharts.theme = {
-  colors: ['#333', '#555', '#7777', '#999', '#BBB', '#DDD', '#FFF'],
+  colors: ['#505050', '#646464', '#787878', '#8C8C8C', '#B4B4B4', '#C8C8C8', '#DCDCDC', '#F0F0F0'],
   chart: {
     backgroundColor: null,
     style: {
@@ -10,7 +10,7 @@ Highcharts.theme = {
     series: {
       animation: false,
       dataLabels: {
-        enabled: true,
+        enabled: false,
         style: {
           color: 'white',
           textShadow: false
@@ -87,7 +87,10 @@ Highcharts.theme = {
   },
   tooltip: {
     animation: false,
-    shadow: false
+    shadow: false,
+    column: {
+      formatter: columnToolTipFormatter
+    }
   },
 };
 

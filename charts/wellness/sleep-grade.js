@@ -26,6 +26,9 @@ $(function() {
     legend: {
       reversed: true
     },
+    tooltip: {
+      formatter: columnToolTipFormatter
+    },
     series: [{
       name: '2016',
       data: [0, 7, 39, 90, 63, 25, 2, 0, 1]
