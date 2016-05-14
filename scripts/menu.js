@@ -3,8 +3,6 @@
  */
 
 $(document).ready(function() {
-  $(document).scrollTop(0);
-
   $("#general").waypoint(function(direction) {
     if (direction === "down") {
       $("nav").addClass("stuck");
@@ -14,10 +12,21 @@ $(document).ready(function() {
   });
 
   $("section").waypoint(function(direction) {
-    $("nav li a").removeClass();
-    return $("nav li a[href='#" + this.element.id + "']").addClass("active");
+    if (direction === 'down') {
+      $("nav li a").removeClass();
+      return $("nav li a[href='#" + this.element.id + "']").addClass("active");
+    }
   }, {
     offset: 200
+  });
+
+  $("section").waypoint(function(direction) {
+    if (direction === 'up') {
+      $("nav li a").removeClass();
+      return $("nav li a[href='#" + this.element.id + "']").addClass("active");
+    }
+  }, {
+    offset: -200
   });
 
   // Scroll to a section when the link is clicked.
