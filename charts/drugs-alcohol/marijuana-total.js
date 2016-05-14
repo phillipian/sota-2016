@@ -1,8 +1,5 @@
 $(function() {
   $("[id='marijuana-total']").highcharts({
-    title: {
-      // text: 'Marijuana Total'
-    },
     chart: {
       type: 'column'
     },
@@ -14,7 +11,6 @@ $(function() {
     },
     plotOptions: {
       series: {
-        // stacking: 'normal',
         colorByPoint: true,
       }
     },

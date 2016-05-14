@@ -1,8 +1,5 @@
 $(function() {
   $("[id='sexual-activity-consent']").highcharts({
-    title: {
-      // text: 'Sexual Activity vs. Consent'
-    },
     chart: {
       type: 'bar'
     },
@@ -23,7 +20,6 @@ $(function() {
     }, {
       name: 'Does not Consistently asks for consent',
       data: [98, 102, 11, 63]
-    }
-  ]
+    }]
   });
 });

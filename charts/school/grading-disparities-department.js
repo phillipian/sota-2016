@@ -1,21 +1,18 @@
 $(function() {
   $("[id='grading-disparities-department']").highcharts({
-    title: {
-      // text: 'Grading Disparitites Department'
-    },
     chart: {
       type: 'bar'
+    },
+    plotOptions: {
+      series: {
+        colorByPoint: true,
+      }
     },
     xAxis: {
       categories: ['Art', 'English', 'History and Social Science', 'Mathematics, Statistics,<br /> and Computer Science', 'Music', 'Natural Sciences', 'Physical Education', 'Philosophy and<br /> Religious Studies', 'Theater and Dance', 'World Languages', 'Not applicable'],
     },
     tooltip: {
       formatter: barTooltipFormatter
-    },
-    plotOptions: {
-      series: {
-        colorByPoint: true,
-      }
     },
     series: [{
       data: [

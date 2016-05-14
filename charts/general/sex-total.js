@@ -1,10 +1,12 @@
 $(function() {
   $("[id='sex-total']").highcharts({
-    title: {
-      text: ''
-    },
     chart: {
       type: 'column'
+    },
+    plotOptions: {
+      series: {
+        colorByPoint: true,
+      }
     },
     xAxis: {
       categories: ['Female', 'Male', 'Intersex'],
@@ -12,14 +14,12 @@ $(function() {
     tooltip: {
       formatter: barTooltipFormatter
     },
-    plotOptions: {
-      series: {
-        // stacking: 'normal',
-        colorByPoint: true,
-      }
-    },
     series: [{
-      data: [['Female', 494], ['Male', 427], ['Intersex', 2]],
+      data: [
+        ['Female', 494],
+        ['Male', 427],
+        ['Intersex', 2]
+      ],
       showInLegend: false
     }]
   });

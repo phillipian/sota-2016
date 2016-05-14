@@ -1,9 +1,6 @@
 $(function() {
   $("[id='major-offense-not-caught-grade']").highcharts({
     colors: ['#DDD', '#BBB', '#999', '#777', '#555', '#333'],
-    title: {
-      // text: 'Sexual Activity vs. Consent'
-    },
     chart: {
       type: 'bar'
     },
@@ -16,7 +13,7 @@ $(function() {
       }
     },
     xAxis: {
-      categories: ['2016', '2017','2018','2019'], //, 'Not applicable'
+      categories: ['2016', '2017', '2018', '2019'], //, 'Not applicable'
     },
     tooltip: {
       formatter: xRefBarTooltipFormatter
@@ -27,7 +24,6 @@ $(function() {
     }, {
       name: 'No, have not committed a major offense or have bee',
       data: [78, 95, 142, 149]
-    }
-  ]
+    }]
   });
 });

@@ -1,21 +1,18 @@
 $(function() {
   $("[id='boarder-day-student-sexual-activity']").highcharts({
-    title: {
-      // text: 'Boarder-Day Student vs. Sexual Activity'
-    },
     chart: {
       type: 'bar'
+    },
+    plotOptions: {
+      series: {
+        stacking: 'normal'
+      }
     },
     xAxis: {
       categories: ['Boarders', 'Day Students'],
     },
     tooltip: {
       formatter: xRefBarTooltipFormatter
-    },
-    plotOptions: {
-      series: {
-        stacking: 'normal'
-      }
     },
     series: [{
       name: 'Have engaged in sexual activity',

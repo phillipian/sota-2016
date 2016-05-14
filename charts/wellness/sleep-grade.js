@@ -1,29 +1,23 @@
 $(function() {
   $("[id='sleep-grade']").highcharts({
     colors: ['#FFF', '#DDD', '#BBB', '#999', '#777', '#555', '#333'],
-    title: {
-      // text: 'Sleep Grade'
-    },
     chart: {
       type: 'area'
-    },
-    xAxis: {
-      categories: ['10+ hours', '9', '8', '7', '6', '5', '4', '3', '< 2'],
-      reversed: true
-    },
-    legend: {
-      reversed:true
-    },
-    yAxis: {
-      reversedStacks: true
-    },
-    tooltip: {
-      // formatter: barTooltipFormatter
     },
     plotOptions: {
       area: {
         stacking: 'area'
       }
+    },
+    xAxis: {
+      categories: ['10+ hours', '9', '8', '7', '6', '5', '4', '3', '< 2'],
+      reversed: true
+    },
+    yAxis: {
+      reversedStacks: true
+    },
+    legend: {
+      reversed: true
     },
     series: [{
       name: '2016',

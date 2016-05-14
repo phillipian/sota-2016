@@ -1,8 +1,5 @@
 $(function() {
   $("[id='gender-total']").highcharts({
-    title: {
-      text: ''
-    },
     chart: {
       type: 'bar'
     },
@@ -18,7 +15,14 @@ $(function() {
       }
     },
     series: [{
-      data: [['Agender', 5], ['Gender fluid', 2], ['Genderqueer', 2], ['Man', 425], ['Nonbinary', 9], ['Woman', 480]],
+      data: [
+        ['Agender', 5],
+        ['Gender fluid', 2],
+        ['Genderqueer', 2],
+        ['Man', 425],
+        ['Nonbinary', 9],
+        ['Woman', 480]
+      ],
       showInLegend: false
     }]
   });

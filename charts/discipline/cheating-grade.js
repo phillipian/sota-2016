@@ -13,7 +13,7 @@ $(function() {
       }
     },
     xAxis: {
-      categories: ['2016', '2017','2018','2019']
+      categories: ['2016', '2017', '2018', '2019']
     },
     tooltip: {
       formatter: xRefBarTooltipFormatter
@@ -24,7 +24,6 @@ $(function() {
     }, {
       name: 'No, has not cheated',
       data: [155, 166, 208, 176]
-    }
-  ]
+    }]
   });
 });

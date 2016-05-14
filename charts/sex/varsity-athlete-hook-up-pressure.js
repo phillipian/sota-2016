@@ -1,10 +1,12 @@
 $(function() {
   $("[id='varsity-athlete-hook-up-pressure']").highcharts({
-    title: {
-      // text: 'Hook Up Pressure vs. Varsity Athlete'
-    },
     chart: {
       type: 'column'
+    },
+    plotOptions: {
+      series: {
+        stacking: 'normal'
+      }
     },
     xAxis: {
       categories: ['Pressured to participate', 'Not pressured to pariticpate'],
@@ -16,11 +18,6 @@ $(function() {
     },
     tooltip: {
       formatter: xRefBarTooltipFormatter
-    },
-    plotOptions: {
-      series: {
-        stacking: 'normal'
-      }
     },
     series: [{
       name: 'Varsity athletes',

@@ -1,8 +1,5 @@
 $(function() {
   $("[id='school-sponsered-event-under-influence']").highcharts({
-    title: {
-      // text: 'School Sponsered Event Under Influence Total'
-    },
     chart: {
       type: 'pie'
     },
@@ -14,7 +11,6 @@ $(function() {
     },
     plotOptions: {
       series: {
-        // stacking: 'normal',
         colorByPoint: true,
       }
     },

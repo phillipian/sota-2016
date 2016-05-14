@@ -1,8 +1,5 @@
 $(function() {
   $("[id='boarder-day-student-alcohol']").highcharts({
-    title: {
-      // text: 'Boarder-Day Student vs. Alcohol'
-    },
     chart: {
       type: 'column'
     },

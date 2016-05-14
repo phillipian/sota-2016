@@ -1,16 +1,8 @@
 $(function() {
   $("[id='reverse-racism-political-affiliation']").highcharts({
-    title: {
-      // text: 'Faculty Diversity vs. Political Affiliation'
-    },
     chart: {
       type: 'column'
     },
-    // plotOptions: {
-    //   series: {
-    //     stacking: 'percentage'
-    //   }
-    // },
     xAxis: {
       categories: ['Reverse racism exists', 'Reverse racism doesn\'t exist'],
     },

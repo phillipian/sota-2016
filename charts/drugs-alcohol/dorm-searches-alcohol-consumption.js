@@ -1,8 +1,5 @@
 $(function() {
   $("[id='dorm-searches-alcohol-consumption']").highcharts({
-    title: {
-      // text: 'Dorm Searches vs. Alcohol Consumption'
-    },
     chart: {
       type: 'column'
     },
@@ -12,11 +9,6 @@ $(function() {
     tooltip: {
       formatter: xRefBarTooltipFormatter
     },
-    // plotOptions: {
-    //   series: {
-    //     stacking: 'normal'
-    //   }
-    // },
     series: [{
       name: 'Consumed alcohol on and off campus',
       data: [46, 165]

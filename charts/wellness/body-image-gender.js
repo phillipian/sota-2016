@@ -1,9 +1,6 @@
 $(function() {
   $("[id='body-image-gender']").highcharts({
     colors: ['#DDD', '#BBB', '#999', '#777', '#555', '#333'],
-    title: {
-      // text: 'Body Image vs. Gender'
-    },
     chart: {
       type: 'bar'
     },
@@ -16,27 +13,20 @@ $(function() {
       }
     },
     xAxis: {
-      title: {
-        // text: 'Do you regularly feel insecure about your body or appearance?'
-      },
-      categories: ['Agender','Gender fluid','Genderqueer','Man','Nonbinary','Woman']
-      // categories: ['Yes, always', 'Yes, regularly', 'Yes, sometimes', 'No'],
-    },
-    tooltip: {
-      // formatter: xRefBarTooltipFormatter
+      categories: ['Agender', 'Gender fluid', 'Genderqueer', 'Man', 'Nonbinary', 'Woman']
     },
     series: [{
       name: 'Yes, always',
-      data: [1, 1, 0, 25,2,83]
+      data: [1, 1, 0, 25, 2, 83]
     }, {
       name: 'Yes, regularly',
-      data: [3,0,1,48,2,146]
+      data: [3, 0, 1, 48, 2, 146]
     }, {
       name: 'Yes, sometimes',
-      data: [0,0,1,161,5,198]
+      data: [0, 0, 1, 161, 5, 198]
     }, {
       name: 'No',
-      data: [1,1,0,191,0,53]
+      data: [1, 1, 0, 191, 0, 53]
     }]
   });
 });

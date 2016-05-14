@@ -1,23 +1,19 @@
 $(function() {
   $("[id='sexual-activity-total']").highcharts({
     colors: ['#999', '#777', '#555', '#333'],
-    title: {
-      // text: 'Engaged in Any Sexual Activity Total'
-    },
     chart: {
       type: 'bar'
+    },
+    plotOptions: {
+      series: {
+        colorByPoint: true
+      }
     },
     xAxis: {
       categories: ['Yes', 'Not Applicable'],
     },
     tooltip: {
       formatter: barTooltipFormatter
-    },
-    plotOptions: {
-      series: {
-        // stacking: 'normal',
-        colorByPoint: true
-      }
     },
     series: [{
       data: [

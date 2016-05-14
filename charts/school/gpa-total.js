@@ -1,8 +1,5 @@
 $(function() {
   $("[id='gpa-total']").highcharts({
-    title: {
-      // text: 'GPA Total'
-    },
     chart: {
       type: 'line'
     },

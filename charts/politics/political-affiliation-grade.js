@@ -1,17 +1,8 @@
 $(function() {
   $("[id='political-affiliation-grade']").highcharts({
     colors: ['#DDD', '#BBB', '#999', '#777', '#555', '#333'],
-    title: {
-      // text: 'What is your political affiliation?'
-    },
     chart: {
       type: 'bar'
-    },
-    xAxis: {
-      categories: ['2019', '2018', '2017', '2016'],
-    },
-    tooltip: {
-      formatter: xRefBarTooltipFormatter
     },
     plotOptions: {
       series: {
@@ -20,6 +11,12 @@ $(function() {
           enabled: false
         }
       }
+    },
+    xAxis: {
+      categories: ['2019', '2018', '2017', '2016'],
+    },
+    tooltip: {
+      formatter: xRefBarTooltipFormatter
     },
     series: [{
       name: 'Conservative',

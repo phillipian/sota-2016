@@ -1,9 +1,6 @@
 $(function() {
   $("[id='gpa-grade']").highcharts({
     colors: ['#FFF', '#DDD', '#BBB', '#999', '#777', '#555', '#333'],
-    title: {
-      // text: 'GPA Grade'
-    },
     chart: {
       type: 'area'
     },
@@ -18,11 +15,11 @@ $(function() {
     xAxis: {
       categories: ['6.0', '5.8', '5.6', '5.4', '5.2', '5.0', '4.8', '4.6', '4.4', '4.2', '4.0', '3.8', '3.6', '3.4', '3.2', '3.0 or less'],
     },
-    legend: {
-      reversed:true
-    },
     yAxis: {
       reversedStacks: true
+    },
+    legend: {
+      reversed: true
     },
     tooltip: {
       formatter: xRefBarTooltipFormatter

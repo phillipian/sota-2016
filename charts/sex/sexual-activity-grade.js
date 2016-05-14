@@ -1,9 +1,6 @@
 $(function() {
   $("[id='sexual-activity-grade']").highcharts({
     colors: ['#DDD', '#BBB', '#999', '#777', '#555', '#333'],
-    title: {
-      // text: 'Sexual Activity vs. Consent'
-    },
     chart: {
       type: 'bar'
     },
@@ -16,7 +13,7 @@ $(function() {
       }
     },
     xAxis: {
-      categories: ['2016', '2017','2018','2019'], //, 'Not applicable'
+      categories: ['2016', '2017', '2018', '2019']
     },
     tooltip: {
       formatter: xRefBarTooltipFormatter
@@ -36,7 +33,6 @@ $(function() {
     }, {
       name: 'Not Applicable',
       data: [61, 103, 162, 166]
-    }
-  ]
+    }]
   });
 });

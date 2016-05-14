@@ -1,27 +1,26 @@
 $(function() {
   $("[id='sexual-assault-total']").highcharts({
-    title: {
-      // text: 'Have you ever been sexually assaulted?'
-    },
     chart: {
       type: 'bar'
-    },
-    xAxis: {
-      categories: ['On and <br />off campus', 'On campus', 'Off campus','Never'],
-      labels: {
-        // rotation: -90,
-      }
-    },
-    tooltip: {
-      formatter: barTooltipFormatter
     },
     plotOptions: {
       series: {
         colorByPoint: true,
       }
     },
+    xAxis: {
+      categories: ['On and <br />off campus', 'On campus', 'Off campus', 'Never']
+    },
+    tooltip: {
+      formatter: barTooltipFormatter
+    },
     series: [{
-      data: [['On and off campus', 10], ['On campus', 21], ['Off campus', 53], ['Never', 839]],
+      data: [
+        ['On and off campus', 10],
+        ['On campus', 21],
+        ['Off campus', 53],
+        ['Never', 839]
+      ],
       showInLegend: false
     }]
   });

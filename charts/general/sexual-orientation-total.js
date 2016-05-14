@@ -1,21 +1,18 @@
 $(function() {
   $("[id='sexual-orientation-total']").highcharts({
-    title: {
-      text: ''
-    },
     chart: {
       type: 'bar'
+    },
+    plotOptions: {
+      series: {
+        colorByPoint: true,
+      }
     },
     xAxis: {
       categories: ['Asexual', 'Bisexual', 'Demisexual', 'Heterosexual', 'Homosexual', 'Pansexual'],
     },
     tooltip: {
       formatter: barTooltipFormatter
-    },
-    plotOptions: {
-      series: {
-        colorByPoint: true,
-      }
     },
     series: [{
       data: [

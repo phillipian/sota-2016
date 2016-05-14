@@ -1,16 +1,8 @@
 $(function() {
   $("[id='faculty-diversity-political-affiliation']").highcharts({
-    title: {
-      // text: 'Faculty Diversity vs. Political Affiliation'
-    },
     chart: {
       type: 'column'
     },
-    // plotOptions: {
-    //   series: {
-    //     stacking: 'percentage'
-    //   }
-    // },
     xAxis: {
       categories: ['The faculty is diverse enough', 'The faculty is not diverse enough'],
     },
