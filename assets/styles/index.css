@@ -267,9 +267,27 @@ body {
   display: block;
 }
 
+.wrapper footer a, a:visited {
+  color: #1770BC;
+  text-decoration: none;
+}
+
+.wrapper footer a:hover {
+  color: #15B4E5;
+}
+
 .wrapper footer span h4 {
   display: inline;
   font-family:'Gerogia','Times',serif;
+}
+
+.wrapper footer p {
+  padding: 0 0 2px 20px;
+  color: #777;
+}
+
+.wrapper footer p:last-child {
+  padding-bottom: 20px;
 }
 
 .general {
