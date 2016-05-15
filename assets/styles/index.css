@@ -28,7 +28,7 @@ body {
   content: '';
   display: inline-block;
   vertical-align: middle;
-  height: 70%;
+  height: 70vh;
 }
 
 .wrapper header .content {
@@ -175,14 +175,13 @@ body {
 .wrapper .content section .container {
   width: 80%;
   float: right;
+  color: white;
 }
 
 .wrapper .content section .container .left {
   float: left;
   width: 44%;
-  color: white;
   display: block;
-  /*background-color: red;*/
 }
 
 .wrapper .content section .container .left h1 {
@@ -199,14 +198,12 @@ body {
   float: left;
   width: 54%;
   margin-left: 2%;
-  /*background-color: green;*/
 }
 
 .wrapper .content section .container .number {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 48px;
   font-weight: 900;
-  color: white;
 }
 
 .wrapper .content section .container .number:first-child {
@@ -219,7 +216,6 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   max-width: 90%;
-  color: white;
 }
 
 .wrapper .content section .container .number-description.border {
@@ -245,7 +241,6 @@ body {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  color: white;
 }
 
 .wrapper .content section .container .chart-container .chart {
@@ -254,15 +249,10 @@ body {
 }
 
 .wrapper footer {
-  background-color: white;
   width: 100%;
   min-width: 1200px;
   max-width: 1440px;
-}
-
-.wrapper footer span {
   padding: 20px;
-  display: block;
 }
 
 .wrapper footer a, a:visited {
@@ -274,18 +264,26 @@ body {
   color: #15B4E5;
 }
 
-.wrapper footer span h4 {
+.wrapper footer .left {
+  padding-right: 30px;
+  margin-bottom: 20px;
+  float: left;
+  border-right: 1px dotted #555;
+}
+
+.wrapper footer .right {
+  float: left;
+  padding-left: 30px;
+  width: 700px;
+}
+
+.wrapper footer .left span h4 {
   display: inline;
   font-family:'Gerogia','Times',serif;
 }
 
-.wrapper footer p {
-  padding: 0 0 2px 20px;
-  color: #777;
-}
-
-.wrapper footer p:last-child {
-  padding-bottom: 20px;
+.wrapper footer .left p {
+  color: #555;
 }
 
 .general {
