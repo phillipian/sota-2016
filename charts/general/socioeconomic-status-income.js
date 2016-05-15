@@ -19,7 +19,7 @@ $(function() {
       }
     },
     xAxis: {
-      categories: ['$250,000 or more', '$150,000 to $24,999', '$100,000 to $149,999', '$60,000 to $99,999', '$35,000 to $59,999', '$34,999 or less', 'Unsure'],
+      categories: ['$250,000 or more', '$150,000 to $249,999', '$100,000 to $149,999', '$60,000 to $99,999', '$35,000 to $59,999', '$34,999 or less', 'Unsure'],
     },
     tooltip: {
       formatter: percentageToolTipFormatter
