@@ -23,7 +23,7 @@ $(document).ready(function() {
       return $("nav li a[href='#" + this.element.id + "']").addClass("active");
     }
   }, {
-    offset: 200
+    offset: 300
   });
 
   /**
@@ -35,7 +35,7 @@ $(document).ready(function() {
       return $("nav li a[href='#" + this.element.id + "']").addClass("active");
     }
   }, {
-    offset: -200
+    offset: -900
   });
 
   /**
