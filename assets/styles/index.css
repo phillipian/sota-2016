@@ -250,9 +250,7 @@ body {
 
 .wrapper footer {
   width: 100%;
-  min-width: 1200px;
-  max-width: 1440px;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .wrapper footer a, a:visited {
@@ -266,7 +264,7 @@ body {
 
 .wrapper footer .left {
   padding-right: 30px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 20px;
   float: left;
   border-right: 1px dotted #555;
 }
